@@ -16,14 +16,14 @@ function getRandomNum(min, max)
 
 console.log(random)
 
-function somma(numero, random)
+function somma(numeroUtente, numeroPc)
 {
     return numero + random;
 }
 
 console.log(risulatoSomma)
 
-function pariDispari(risulatoSomma, scegli)
+function pariDispari(SommaDeiDueNumeri, scegliPariDisapri)
 {
     if(risulatoSomma % 2 == 0 && scegli == `pari`){
         alert(`hai vinto`)
